@@ -22,7 +22,14 @@ void main(string[] args) {
             case '+': memory[pointer]++; break;
             case '-': memory[pointer]--; break;
             case '.': write(memory[pointer]); break;
-            case ',': memory[pointer] = readln[0]; break;
+            case ',': {
+                char[] input = stdin.rawRead(new char[1]);
+                if (input.empty) {
+                    memory[pointer] = cast(char)(-1);
+                } else {
+                    memory[pointer] = input[0];
+                }
+            } break;
             case '[': {
                 if (memory[pointer]==0) {
                     for(int level=0; ; index++) {
