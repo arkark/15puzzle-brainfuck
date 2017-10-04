@@ -21,7 +21,10 @@ void main(string[] args) {
             case '<': pointer--; break;
             case '+': memory[pointer]++; break;
             case '-': memory[pointer]--; break;
-            case '.': write(memory[pointer]); break;
+            case '.': {
+                write(memory[pointer]);
+                stdout.flush;
+            } break;
             case ',': {
                 char[] input = stdin.rawRead(new char[1]);
                 if (input.empty) {
