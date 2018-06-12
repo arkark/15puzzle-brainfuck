@@ -1,4 +1,4 @@
-[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ArkArk/brainfuck-online-simulator/blob/master/LICENSE)
+[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ArkArk/15puzzle-brainfuck/blob/master/LICENSE)
 
 # A 15 puzzle written in Brainfuck
 
@@ -40,6 +40,6 @@ Input a character (one of `wasd`), then `00` is swapped for the corresponding nu
 
 The source code is [here](/src/15puzzle.bf).
 
-## LICENSE
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
