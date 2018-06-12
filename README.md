@@ -1,25 +1,24 @@
-# Brainf\*ck製15パズル
+[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ArkArk/brainfuck-online-simulator/blob/master/LICENSE)
 
-Brainf\*ckで作られた15パズル。
+# A 15 puzzle written in Brainfuck
 
-Brainf\*ckのインタプリタを作ったときの動作テストなどにお使い下さい。
+Brainfuck is fully Turing complete, so you can implement **whatever** with it. Of course it includes games... for examle 15 puzzle!
 
 ![demo](/demo.gif)
 
-## 実行方法
+## How to run
 
-テスト用にD言語でBrainf*ckのインタプリタを作りました。
+Run [this](/src/15puzzle.bf) with Brainfuck interpreters or compilers (which should be interactive).
 
-コンパイルして実行して下さい。
-```
-$ ./brainfuck 15puzzle.bf
-```
+For example: [Brainfuck Online Simulator](https://arkark.github.io/brainfuck-online-simulator/)
 
-## 遊び方
+## How to play
 
-ルールは普通の15パズルと同じです。
+This game's rules is the same as that of general 15 puzzles.
 
-### クリア条件
+### Completed condition
+
+This game is completed on the following condition:
 
 ```
 01 02 03 04
@@ -28,25 +27,19 @@ $ ./brainfuck 15puzzle.bf
 13 14 15 00
 ```
 
-の状態にしたらクリア
+### How to operate
 
-### 操作方法
+Input a character (one of `wasd`), then `00` is swapped for the corresponding number.
 
-下の文字を入力することで，00と各方向の数字との交換
+- `w` ... swapped for the one on the upper
+- `a` ... swapped for the one on the left
+- `s` ... swapped for the one on the lower
+- `d` ... swapped for the one on the right
 
-- w ... 上の数字と交換
-- s ... 下の数字と交換
-- a ... 左の数字と交換
-- d ... 右の数字と交換
+## Source code
 
-## その他
+The source code is [here](/src/15puzzle.bf).
 
-Brainf\*ckで何らかのゲームを作ることを目的として作ったため、無駄に長いコードになってしまいました。
+## LICENSE
 
-乱数の実装をBrainfuckでやるのは大変だったため、パズルの初期位置は固定です。
-
-***
-
-ソースコードは[こちら](/src/15puzzle.bf)
-
-- 29655文字
+[MIT](https://opensource.org/licenses/MIT)

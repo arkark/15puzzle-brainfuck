@@ -4,6 +4,14 @@ import std.range;
 import std.conv;
 import std.file;
 
+/*
+ A Brainfuck interpreter written in Dlang.
+
+$ dmd brainfuck.d
+$ ./brainfuck 15puzzle.bf
+
+ */
+
 void main(string[] args) {
     if (args.length < 2) return;
     assert(exists(args[1]), "Could not find file '"~args[1]~"'");
