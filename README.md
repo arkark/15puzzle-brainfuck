@@ -2,7 +2,7 @@
 
 # A 15 puzzle written in Brainfuck
 
-Brainfuck is fully Turing complete, so you can implement **whatever** with it. Of course it includes games... for examle 15 puzzle!
+Brainfuck is fully Turing complete, so you can implement **whatever** you want with it. Of course it includes games... for examle **15 puzzle**!
 
 ![demo](/demo.gif)
 
@@ -14,7 +14,7 @@ For example: [Brainfuck Online Simulator](https://arkark.github.io/brainfuck-onl
 
 ## How to play
 
-This game's rules is the same as that of general 15 puzzles.
+This game's rules are the same as that of general 15 puzzles.
 
 ### Completed condition
 
@@ -31,10 +31,10 @@ This game is completed on the following condition:
 
 Input a character (one of `wasd`), then `00` is swapped for the corresponding number.
 
-- `w` ... swapped for the one on the upper
-- `a` ... swapped for the one on the left
-- `s` ... swapped for the one on the lower
-- `d` ... swapped for the one on the right
+- `w` ... swapped for the one on the **upper**
+- `a` ... swapped for the one on the **left**
+- `s` ... swapped for the one on the **lower**
+- `d` ... swapped for the one on the **right**
 
 ## Source code
 
