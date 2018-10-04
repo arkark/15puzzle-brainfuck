@@ -4,7 +4,7 @@
 
 Brainfuck is fully Turing complete, so you can implement **whatever** you want with it. Of course it includes games... for examle **15 puzzle**!
 
-![demo](/demo.gif)
+[![demo](/demo.gif)](https://asciinema.org/a/204514)
 
 ## How to run
 
