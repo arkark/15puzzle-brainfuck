@@ -1,6 +1,7 @@
-[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ArkArk/15puzzle-brainfuck/blob/master/LICENSE)
+A 15 puzzle written in Brainfuck
+===
 
-# A 15 puzzle written in Brainfuck
+[![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/ArkArk/15puzzle-brainfuck/blob/master/LICENSE)
 
 Brainfuck is fully Turing complete, so you can implement **whatever** you want with it. Of course it includes games... for examle **15 puzzle**!
 
