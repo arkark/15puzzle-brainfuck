@@ -11,7 +11,7 @@ Brainfuck is fully Turing complete, so by using it you can implement whatever yo
 
 Run [this](/src/15puzzle.bf) with Brainfuck interpreters or compilers (which should be interactive).
 
-- E.g. [Brainfuck Online Simulator](https://arkark.github.io/brainfuck-online-simulator/)
+- E.g. [Brainfuck Online Simulator](https://arkark.github.io/brainfuck-online-simulator/15puzzle)
 
 If you're developing an interpreter or a compiler, let's try to use this for the operation test of it :)
 
